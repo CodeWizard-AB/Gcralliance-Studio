@@ -6,13 +6,9 @@ import {schemaTypes} from './schemaTypes'
 export default defineConfig({
   name: 'default',
   title: 'Gcralliance-Studio',
-
-  projectId: 's4skwd84',
-  dataset: 'production',
-
+  basePath: '/studio',
+  projectId: process.env.SANITY_PROJECT_ID!,
+  dataset: process.env.SANITY_DATASET!,
   plugins: [structureTool(), visionTool()],
-
-  schema: {
-    types: schemaTypes,
-  },
+  schema: {types: schemaTypes},
 })
