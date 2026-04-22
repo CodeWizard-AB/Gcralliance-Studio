@@ -1,5 +1,5 @@
 import {defineField, defineType} from 'sanity'
-import {seoField} from './shared'
+import {seoField} from '../shared/shared'
 
 // ── Home Page ─────────────────────────────────────────────────────────────
 export const homePageType = defineType({

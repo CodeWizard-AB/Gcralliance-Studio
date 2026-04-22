@@ -1,5 +1,5 @@
 import {defineField, defineType} from 'sanity'
-import {slugField} from './shared'
+import {slugField} from '../shared/shared'
 
 export const categoryType = defineType({
   name: 'category',

@@ -1,5 +1,5 @@
 import {defineField, defineType} from 'sanity'
-import {publishedAtField, slugField} from './shared'
+import {publishedAtField, slugField} from '../shared/shared'
 
 export const postType = defineType({
   name: 'post',

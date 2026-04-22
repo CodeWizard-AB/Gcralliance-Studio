@@ -1,8 +1,9 @@
-import {ambassadorType} from './ambassador'
-import {authorType} from './author'
-import {categoryType} from './category'
-import {eventType} from './event'
-import {postType} from './post'
+import {ambassadorType} from './documents/ambassador'
+import {authorType} from './documents/author'
+import {categoryType} from './documents/category'
+import {eventType} from './documents/event'
+import {postType} from './documents/post'
+import {teamMemberType} from './documents/teamMember'
 import {
   researchAuthorType,
   officeType,
@@ -18,15 +19,14 @@ import {
   heroType,
   ctaType,
   speakerType,
-} from './shared'
+} from './shared/shared'
 import {
   aboutPageType,
   homePageType,
   membershipPageType,
   navigationSettingsType,
   siteSettingsType,
-} from './singletons'
-import {teamMemberType} from './teamMember'
+} from './pages/singletons'
 
 export const schemaTypes = [
   // * Document types

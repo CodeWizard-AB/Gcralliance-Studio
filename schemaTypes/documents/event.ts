@@ -1,5 +1,5 @@
 import {defineField, defineType} from 'sanity'
-import {seoField, slugField} from './shared'
+import {seoField, slugField} from '../shared/shared'
 
 export const eventType = defineType({
   name: 'event',
