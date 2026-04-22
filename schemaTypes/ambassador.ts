@@ -104,7 +104,7 @@ export const ambassadorType = defineType({
     },
   },
   orderings: [
-    {title: 'Country A–Z', name: 'countryAsc', by: [{field: 'country', direction: 'asc'}]},
+    {title: 'Country A-Z', name: 'countryAsc', by: [{field: 'country', direction: 'asc'}]},
     {title: 'Display Order', name: 'displayOrder', by: [{field: 'displayOrder', direction: 'asc'}]},
   ],
 })
