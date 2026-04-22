@@ -47,7 +47,6 @@ export const schemaTypes = [
   // * Object types
   seoType,
   ctaType,
-  seoType,
   heroType,
   statItemType,
   timelineItemType,

@@ -58,14 +58,14 @@ export const homePageType = defineType({
           initialValue: 'Evidence That Shapes Policy',
         },
         {name: 'sub', type: 'text', title: 'Section Subtext', rows: 2},
-        {
-          name: 'items',
-          type: 'array',
-          title: 'Featured Publications (max 3)',
-          of: [{type: 'reference', to: [{type: 'research'}]}],
-          validation: (R) => R.max(3),
-          description: 'Leave blank to auto-show the 3 most recent published research items.',
-        },
+        // {
+        //   name: 'items',
+        //   type: 'array',
+        //   title: 'Featured Publications (max 3)',
+        //   of: [{type: 'reference', to: [{type: 'research'}]}],
+        //   validation: (R) => R.max(3),
+        //   description: 'Leave blank to auto-show the 3 most recent published research items.',
+        // },
       ],
     }),
     defineField({
